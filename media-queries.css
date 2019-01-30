@@ -59,10 +59,19 @@ h1 {
     margin-bottom: 3.5em;
 }
 
+#social-media-links {
+    float: right;
+}
+.icon {
+    display: inline-block;
+    float: right;
+    height: 10px;
+    width: 10px;
+}
 
 /* DESKTOP VIEW */
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 500px) {
     .nav-links {
         float: right;
         display: inline-block;
@@ -108,7 +117,8 @@ h1 {
         margin: 1em;
     }
     footer {
-        display: block;
+        display: inline-block;
+        float: left;
         clear: both;
     }
     img {
@@ -120,4 +130,15 @@ h1 {
         margin-left: auto;
         clear: both;
     }
+
+    #social-media-links {
+        float: right;
+    }
+  .icon {
+        display: inline-block;
+        float: right;
+      height: 50px;
+      width: 50px;
+    }
+
 }
