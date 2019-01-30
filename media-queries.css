@@ -1,8 +1,14 @@
+/* DEFAULT/MOBILE VIEW
+body {
+    max-width: 375px;
+
+}
+
 .alert-info {
 border-style: solid;
     color: rgb(207,207,207);
     background-color: rgb(203,253,253);
-    width: 339px;
+    width: 337px;
     margin: 17.5px;
     text-align: center;
     padding: .5em;
@@ -20,9 +26,40 @@ li {
     padding: .5em .5em .5em .5em;
     background-color: rgb(204,204,204);
     list-style: none;
+
 }
 .nav-links {
     padding: none;
     position: relative;
     right: 56px;
 }
+img {
+    display: block;
+    max-width: 350px;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+
+
+}
+
+h1 {
+    width: 350px;
+    text-align: center;
+}
+
+.main {
+    width: 350px;
+    margin-bottom: 2.5em;
+}
+
+.sub-section {
+    width: 350px;
+    font-style: italic;
+    margin-bottom: 3.5em;
+}
+
+
+/* DESKTOP VIEW */
