@@ -58,15 +58,21 @@ h1 {
     font-style: italic;
     margin-bottom: 3.5em;
 }
+footer {
+    float: left;
+}
 
 #social-media-links {
-    float: right;
+
 }
 .icon {
-    display: inline-block;
+    display: inline;
     float: right;
-    height: 10px;
-    width: 10px;
+}
+
+.icon img {
+    height: 40px;
+    width: 40px;
 }
 
 /* DESKTOP VIEW */
